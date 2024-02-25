@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  stdout.write("Enter the number of the day per week ");
+  stdout.write("Enter the number of the day per week");
   int day = int.parse(stdin.readLineSync() ?? "0");
   switch (day) {
     case 1:
