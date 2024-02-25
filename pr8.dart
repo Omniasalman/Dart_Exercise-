@@ -1,6 +1,7 @@
 import 'dart:io';
 
 void main() {
+  //Write a program to read any digit, and display it in the word. (0 - 9)
   stdout.write("Enter number between 0 -9  =");
   int num = int.parse(stdin.readLineSync() ?? "0");
   switch (num) {
